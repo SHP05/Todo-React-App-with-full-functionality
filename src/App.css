@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Titillium+Web&family=Ubuntu:wght@500&display=swap');
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 100px;
+}
+
+.App {
+  text-align: center;
+}
+body{
+  background-color: #1aa0b8;
+}
+.main_div{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px rgb(201, 200, 200);
+  font-family: 'Ubuntu', sans-serif;
+}
+.inputField{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  
+}
+.inputField input{
+  outline: none;  
+  border: none;
+  font-size: 25px;
+  border-bottom: 2px solid gray;
+  margin: 8px;
+}
+.list li{
+  list-style-type: none;
+  margin: 10px;
+  overflow-y:scroll;
+  width: 230px;
+  color: #1aa0b8;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-around;
+}
+.icons{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  transition: 0.6;
+}
+#icon3:hover{
+  color: #1aa0b8;
+} 
+#icon2:hover{
+  color: #1aa0b8;
+}
+#icon1:hover{
+  color: #1aa0b8;
+}
+#add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: 0.5s;
+  margin-top: 10px;
+  height: 10px;
+  width: 10px;
+}
+#add:hover{
+color: white;
+background-color: #1aa0b8;
+border-radius: 100%;
+padding: 10px;
+}
