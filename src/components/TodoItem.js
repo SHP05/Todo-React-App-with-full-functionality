@@ -3,7 +3,7 @@ const TodoItem = ({item,index,deleteTodoitems,completeTodoitem,updateTodoItem })
         <div className="list">
            <div>
            <h3><li style={{textDecoration: item.complete ? "line-through" : ""}}>
-                {item.title} <br/>   
+                <h3>{item.title}</h3>   
                 {item.todo}
             </li></h3>
            </div>

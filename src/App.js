@@ -53,6 +53,7 @@ const App = () => {
     }
     setTodoitems(newTodoItems);
     };
+    
   return (
     <>
      <div className="main_div">
