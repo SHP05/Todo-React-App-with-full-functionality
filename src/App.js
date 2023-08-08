@@ -3,7 +3,7 @@ import "./App.css";
 import TodoInput from "./components/TodoInput";
 import TodoItem from "./components/TodoItem";
 const App = () => {
-  const [Todoitems,setTodoitems] = useState([{title:"1st",todo:"suman",complete:false},{title:"2nd",todo:"shyam" ,complete:false}]);
+  const [Todoitems,setTodoitems] = useState([]);
   const [filterItems,setFilterItems] = useState([]);
   const createTodoitem = (todo,title) =>{
     if(todo==="" || todo===null)
