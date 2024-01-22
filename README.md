@@ -13,9 +13,11 @@ In this Todo app all functionalities are available like insert todo , delete tod
 
 ## How To Use
 -clone this repository and download dependencies
-  npm install -y
+ 
+-npm install 
 
 -Run this project
   npm start
   
 ##thank you for visit
+##If you want to add something then clone and Contribute.
