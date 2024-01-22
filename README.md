@@ -19,5 +19,5 @@ In this Todo app all functionalities are available like insert todo , delete tod
 -Run this project
   npm start
   
-##thank you for visit
-##If you want to add something then clone and Contribute.
+## thank you for visit
+## If you want to add something then clone and Contribute.
